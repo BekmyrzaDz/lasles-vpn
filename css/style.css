@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik/static/Rubik-Regular.ttf') format('ttf');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header__inner {
+  height: 100vh;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 46px;
+}
+
+.menu__item {
+  display: inline;
+  margin-right: 40px;
+}
+
+.button__sign-in {
+  font-weight: 600;
+  color: #0B132A;
+}
+
+.button__sign-up {
+  padding: 13px 45px;
+  border: 1px solid #F53855;
+  border-radius: 50px;
+  margin-left: 30px;
+  color: #F53855;
+  font-weight: 600;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.header__content_text {
+  width: 555px;
+  margin-bottom: 50px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0B132A;
+  margin-bottom: 20px;
+}
+
+.header__text span {
+  font-weight: 600;
+}
+
+.button__get-started {
+  background-color: #F53838;
+  font-weight: 700;
+  line-height: 25px;
+  padding: 18px 78px;
+  color: #fff;
+  border-radius: 10px;
+}
