@@ -15,8 +15,13 @@
     <div class="container">
       <div class="header__inner">
         <div class="header__top">
-          <img class="logo" src="icons/Logo.svg" alt="">
+          <a class="logo" href="">
+            <img class="logo__img" src="icons/Logo.svg" alt="">
+          </a>
           <nav class="menu">
+            <button class="menu__btn">
+              <span></span>
+            </button>
             <ul class="menu__list">
               <li class="menu__item">
                 <a class="menu__link" href="#">About</a>
@@ -41,28 +46,28 @@
           </div>
         </div>
         <div class="header__content">
-          <div class="header__content-wrapper">
-            <div class="header__content_descr">
-              <div class="header__content_text">
-                <h1 class="header__title">Want anything to be easy with LaslesVPN.</h1>
-                <p class="header__text">
-                  Provide a network for all your needs with ease and fun using <span>LaslesVPN</span> discover
-                  interesting
-                  features
-                  from
-                  us.
-                </p>
-              </div>
-              <div class="button__wrapper">
-                <button class="button button__get-started">Get Started</button>
-                <div class="button__get-started_filter"></div>
-              </div>
+          <!-- <div class="header__content-wrapper"> -->
+          <div class="header__content_descr">
+            <div class="header__content_text">
+              <h1 class="header__title">Want anything to be easy with LaslesVPN.</h1>
+              <p class="header__text">
+                Provide a network for all your needs with ease and fun using <span>LaslesVPN</span> discover
+                interesting
+                features
+                from
+                us.
+              </p>
             </div>
-
-            <div class="header__content_box header__content_box-2">
-              <img class="header__content_img" src="images/Illustration-1.png" alt="">
+            <div class="button__wrapper">
+              <button class="button button__get-started">Get Started</button>
+              <div class="button__get-started_filter"></div>
             </div>
           </div>
+
+          <div class="header__content_box header__content_box-2">
+            <img class="header__content_img" src="images/Illustration-1.png" alt="">
+          </div>
+          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -92,8 +97,8 @@
               <p class="statistics-text">Servers</p>
             </div>
           </div>
+          <div class="statistics__filter"></div>
         </div>
-        <div class="statistics__filter"></div>
       </div>
     </section>
     <section class="features">
@@ -302,7 +307,7 @@
                 </p>
               </div>
             </div>
-            <!-- <div class="happy-customer__slider_item">
+            <div class="happy-customer__slider_item">
               <div class="happy-customer__persone">
                 <div class="happy-customer__profile">
                   <div class="happy-customer__profile_wrapper">
@@ -323,7 +328,7 @@
                   there have been no problems. LaslesVPN always the best”.
                 </p>
               </div>
-            </div>-->
+            </div>
           </div>
           <div class="happy-customer__bottom">
             <div class="happy-customer__dot">
@@ -345,17 +350,19 @@
   <section class="subscribe">
     <div class="container">
       <div class="subscribe__inner">
-        <div class="subscribe__descr">
-          <h3 class="title subscribe__title">Subscribe Now for Get Special Features!</h3>
-          <p class="text subscribe__text">
-            Let's subscribe with us and find the fun.
-          </p>
-        </div>
-        <div class="button__wrapper">
-          <button class="subscribe__btn">
-            Subscribe Now
-          </button>
-          <div class="subscribe__btn_filter"></div>
+        <div class="subscribe__wrapper">
+          <div class="subscribe__descr">
+            <h3 class="title subscribe__title">Subscribe Now for Get Special Features!</h3>
+            <p class="text subscribe__text">
+              Let's subscribe with us and find the fun.
+            </p>
+          </div>
+          <div class="button__wrapper">
+            <button class="subscribe__btn">
+              Subscribe Now
+            </button>
+            <div class="subscribe__btn_filter"></div>
+          </div>
         </div>
         <div class="subscribe__filter"></div>
       </div>
@@ -370,9 +377,6 @@
             LaslesVPN is a private virtual network that has unique features and has high security.
           </p>
           <div class="footer__icons">
-            <!-- <img class="footer__icon" src="icons/footer-facebook.svg" alt="">
-            <img class="footer__icon" src="icons/footer-twitter.svg" alt="">
-            <img class="footer__icon" src="icons/footer-insagram.svg" alt=""> -->
             <img class="footer__icon" src="icons/Facebook.svg" alt="">
             <img class="footer__icon" src="icons/Twitter.svg" alt="">
             <img class="footer__icon" src="icons/Instagram.svg" alt="">
@@ -413,6 +417,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
